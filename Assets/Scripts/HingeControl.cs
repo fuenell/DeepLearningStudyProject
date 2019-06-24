@@ -32,11 +32,3 @@ public class HingeControl : MonoBehaviour
         hinge.spring = spring;
     }
 }
-
-/*
-int cnt = 0;
-long milliseconds = 0;
-long newMilliseconds = DateTimeOffset.Now.ToUnixTimeMilliseconds();
-long howLongMilliseconds = newMilliseconds - milliseconds;
-Debug.Log(cnt++ + "/" + howLongMilliseconds);
-milliseconds = newMilliseconds;*/
